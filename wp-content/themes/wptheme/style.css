@@ -22,6 +22,12 @@ body {
 	color: #333;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 a:link,
 a:visited {
 
@@ -149,4 +155,78 @@ footer p {
 
 article.page h2 {
 	font-size: 300%;
+}
+
+/* Two Column Title Layout */
+
+div.title-column {
+	width: 30%;
+	float:left;
+}
+
+div.text-column {
+	width: 70%;
+	float:right;
+}
+
+/* Info Box Style */
+
+div.info-box {
+	width: 30%;
+	float: right;
+	margin: 0 0 30px 30px;
+	padding: 20px;
+	background-color: #EEE;
+}
+
+div.info-box h4 {
+	margin-bottom: 6px;
+}
+
+div.info-box p {
+	font-size: 85%;
+}
+
+/* Children Links */
+
+.childern-links {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 80%;
+}
+
+.childern-links li {
+	margin-right: 20px;
+}
+
+.childern-links .parent-link {
+	float: left;
+	margin-right: 20px;
+	padding-right: 20px;
+	border-right: 1px solid #ddd;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.childern-links ul {
+	float: left;
+	
+}
+
+.childern-links a:link,
+.childern-links a:visited {
+	text-decoration: none;
+	
+}
+
+.childern-links .parent-link a:link,
+.childern-links .parent-link a:visited {
+	color:#333;
+}
+
+.childern-links .current_page_item a:link,
+.childern-links .current_page_item a:visited {
+	border-bottom: 1px solid #ddd;
+	color: #333333;
+	cursor: default;
 }
