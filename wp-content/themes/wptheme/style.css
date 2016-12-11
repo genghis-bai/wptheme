@@ -189,17 +189,17 @@ div.info-box p {
 
 /* Children Links */
 
-.childern-links {
+.children-links {
 	margin-bottom: 20px;
 	margin-top: 20px;
 	font-size: 80%;
 }
 
-.childern-links li {
+.children-links li {
 	margin-right: 20px;
 }
 
-.childern-links .parent-link {
+.children-links .parent-link {
 	float: left;
 	margin-right: 20px;
 	padding-right: 20px;
@@ -208,24 +208,24 @@ div.info-box p {
 	font-weight: bold;
 }
 
-.childern-links ul {
+.children-links ul {
 	float: left;
 	
 }
 
-.childern-links a:link,
-.childern-links a:visited {
+.children-links a:link,
+.children-links a:visited {
 	text-decoration: none;
 	
 }
 
-.childern-links .parent-link a:link,
-.childern-links .parent-link a:visited {
+.children-links .parent-link a:link,
+.children-links .parent-link a:visited {
 	color:#333;
 }
 
-.childern-links .current_page_item a:link,
-.childern-links .current_page_item a:visited {
+.children-links .current_page_item a:link,
+.children-links .current_page_item a:visited {
 	border-bottom: 1px solid #ddd;
 	color: #333333;
 	cursor: default;

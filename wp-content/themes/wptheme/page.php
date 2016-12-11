@@ -8,8 +8,8 @@ get_header();
 
 			<article class="post page">
 
-			<!--site-nav childern-link clearfix -->
-			<nav class="site-nav childern-links clearfix">
+			<!--site-nav children-link clearfix -->
+			<nav class="site-nav children-links clearfix">
 
 				<span class="parent-link"><a href="<?php get_the_permalink(get_top_ancestor_id()); ?>"><?php echo get_the_title(get_top_ancestor_id()); ?></a></span>
 
@@ -28,7 +28,7 @@ get_header();
 
 				</ul>
 
-			</nav><!-- /site-nav childern-link clearfix -->
+			</nav><!-- /site-nav children-link clearfix -->
 
 				<h2><?php the_title(); ?></h2>
 
