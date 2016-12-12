@@ -8,10 +8,12 @@ get_header();
 
 			<article class="post page">
 
+			<?php if(has_children() or $post->post_parent >0 ) { ?>
+
 			<!--site-nav children-link clearfix -->
 			<nav class="site-nav children-links clearfix">
 
-				<span class="parent-link"><a href="<?php get_the_permalink(get_top_ancestor_id()); ?>"><?php echo get_the_title(get_top_ancestor_id()); ?></a></span>
+				<span class="parent-link"><a href="<?php echo get_the_permalink(get_top_ancestor_id()); ?>"><?php echo get_the_title(get_top_ancestor_id()); ?></a></span>
 
 				<ul>
 
@@ -29,6 +31,8 @@ get_header();
 				</ul>
 
 			</nav><!-- /site-nav children-link clearfix -->
+
+			<?php } ?>
 
 				<h2><?php the_title(); ?></h2>
 

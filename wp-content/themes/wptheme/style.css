@@ -120,7 +120,9 @@ article.post:last-of-type {
 }
 
 .site-header nav ul li.current-menu-item a:link,
-.site-header nav ul li.current-menu-item a:visited {
+.site-header nav ul li.current-menu-item a:visited,
+.site-header nav ul li.current-page-ancestor a:link,
+.site-header nav ul li.current-page-ancestor a:visited {
 	background-color: #006ec3;
 	color: #fff;
 }
@@ -229,4 +231,20 @@ div.info-box p {
 	border-bottom: 1px solid #ddd;
 	color: #333333;
 	cursor: default;
+}
+
+/* Post Styles */
+/*
+.post h2 {
+	margin: 0;
+}*/
+
+p.post-info {
+	font-size: 87%;
+	color: #999;
+}
+
+p.post-info a:link,
+p.post-info a:visited {
+	color: #999;
 }
