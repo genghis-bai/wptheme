@@ -27,6 +27,8 @@ get_header();
 
 					 ?>
 
+					 <?php the_post_thumbnail('banner-image'); ?>
+
 				</p>
 				<?php the_excerpt(); ?>
 			</article>
