@@ -256,3 +256,40 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+
+.has-thumbnail {
+
+	position: relative;
+	padding-left: 200px;
+}
+
+.post-thumbnail {
+
+	position:absolute;
+	top:0;
+	left: 0;
+}
+
+/* Search */
+
+.hd-search {
+
+	float: right;
+	
+}
+
+div.hd-search #submit {
+
+	background-color: #006ec3;
+	color: #fff;
+	padding: 5px 14px;
+	border: none;
+	cursor: pointer;
+	vertical-align: top;	
+}
+
+div.hd-search #s {
+
+	vertical-align: top;
+	padding: 3px 0;
+}
