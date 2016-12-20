@@ -30,7 +30,7 @@ get_header();
 					 <?php the_post_thumbnail('banner-image'); ?>
 
 				</p>
-				<?php the_excerpt(); ?>
+				<?php the_content(); ?>
 			</article>
 
 		<?php endwhile;

@@ -97,6 +97,30 @@ article.post-link a {
 
 }
 
+/* Post Format Gallery Styles */
+
+article.post-gallery {
+
+	background-color: #222;
+	color: #fff;
+	border-bottom: none;
+	padding: 10px;
+	margin-top: 15px;
+
+}
+
+article.post-gallery img {
+
+	border: none !important;
+	
+}
+
+article.post-gallery h2 {
+
+	text-align: center;
+	
+}
+
 /* header */
 
 .site-header {
@@ -159,6 +183,23 @@ article.post-link a {
 .site-header nav ul li.current-page-ancestor a:visited {
 	background-color: #006ec3;
 	color: #fff;
+}
+
+/* Main Column */
+
+.main-column {
+
+	width: 66%;
+	float: left;
+}
+
+/* Side Column */
+
+.secondary-column {
+
+	width: 30%;
+	float: right;
+	
 }
 
 /* Footer Menu */
