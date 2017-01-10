@@ -129,6 +129,17 @@ article.post-gallery h2 {
 
 }
 
+/* Footer Widget Area */
+
+.footer-widgets-area {
+
+	width: 20%;
+	float: left;
+	padding-right: 40px;
+	box-sizing: booder-box;
+	
+}
+
 /* footer */
 
 .site-footer {

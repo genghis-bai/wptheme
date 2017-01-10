@@ -1,6 +1,41 @@
-	<!--site-footer -->
 	<footer class="site-footer">
-	<!--site-nav -->
+	
+	<div class="footer-widgets clearfix">
+		
+		<?php if(is_active_sidebar('footer1')) : ?>
+
+			<div class="footer-widgets-area">
+				<?php dynamic_sidebar('footer1'); ?>
+			</div><!-- /footer-widgets-area -->
+		
+		<?php endif; ?>
+
+		<?php if(is_active_sidebar('footer2')) : ?>
+
+			<div class="footer-widgets-area">
+				<?php dynamic_sidebar('footer2'); ?>
+			</div><!-- /footer-widgets-area -->
+		
+		<?php endif; ?>
+
+		<?php if(is_active_sidebar('footer3')) : ?>
+
+			<div class="footer-widgets-area">
+				<?php dynamic_sidebar('footer3'); ?>
+			</div><!-- /footer-widgets-area -->
+		
+		<?php endif; ?>
+
+		<?php if(is_active_sidebar('footer4')) : ?>
+
+			<div class="footer-widgets-area">
+				<?php dynamic_sidebar('footer4'); ?>
+			</div><!-- /footer-widgets-area -->
+		
+		<?php endif; ?>
+	</div><!-- /footer-widgets -->
+	
+
 	<nav class="site-nav">
 
 		<?php 
